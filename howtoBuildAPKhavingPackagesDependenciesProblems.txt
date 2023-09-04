@@ -1,0 +1,9 @@
+sometimes i build my apk having the some problems caused by the dependencies issues which cause 
+in development to install packages by force using '--force' or '--legacy-peer-deps' command but
+now i have the solution for this when building apk using 'eas' which also works with 'npm' to 
+install all packages to avoid it to fail you should enforce it to run this command of '--force' or 
+'--legacy-peer-deps' by adding file of ".npmrc" in the root of your project and add this line to it
+"legacy-peer-deps=true"
+
+You should give the credit to this guys from the github...
+https://github.com/expo/eas-cli/issues/1545

@@ -1,0 +1,13 @@
+kule kwenye web pointerEvent ilikuwa ni css na kufanya div isi-respond to anything we used
+pointer-events: none; kwenye css ya div hiyo. so hapa in react native the "pointerEvent" is
+not a style of css but a prop of the view component. so we can use it like this below:
+<View pointerEvent="none"></View>
+
+kumbuka sisi tulikuwa value mbili tu ambazo tulikuwa tunazitumia either "none" au "auto"
+
+ko nilikuwa nahangaika but huyu jamaa katupa msaada you should upvote him in stackoverflow
+https://stackoverflow.com/questions/30041111/is-there-a-way-in-which-i-can-ignore-touch-events-on-text-in-react-native
+
+it's important to note that the Text component does not have a pointerEvents prop at all. SO, you will need to wrap the Text in a View and set the view's pointerEvents prop to be none.
+
+pointerEvents work only on View not on Text or TouchableOpacity.

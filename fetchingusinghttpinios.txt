@@ -1,0 +1,6 @@
+https://stackoverflow.com/questions/65978604/react-native-expo-ios-restriction-on-receiving-http-requests
+https://stackoverflow.com/questions/31216758/how-can-i-add-nsapptransportsecurity-to-my-info-plist-file
+https://www.reddit.com/r/learnprogramming/comments/tyvo1h/how_can_i_make_a_fetch_request_to_an_insecure/?onetap_auto=true
+
+to fetch or posting the data to the api 'ios' need you to use 'https' only they not allow 
+'http',  'http' will work in android but not in ios

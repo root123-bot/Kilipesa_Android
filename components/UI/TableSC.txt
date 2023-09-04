@@ -1,0 +1,30 @@
+<View style={styles.tableHolder}>
+        <DataTable
+          onRowSelect={() => console.log("selected")}
+          data={[
+            { name: "Muhammad Rafeh", age: 21, gender: "male" },
+            { name: "Muhammad Akif", age: 22, gender: "male" },
+            { name: "Muhammad Umar", age: 21, gender: "male" },
+            { name: "Amna Shakeel", age: 22, gender: "female" },
+            { name: "Muhammad Ammar", age: 20, gender: "male" },
+            { name: "Muhammad Moiz", age: 13, gender: "male" },
+          ]}
+          colNames={["name", "age", "gender"]}
+          colSettings={[
+            {
+              name: "name",
+              type: COL_TYPES.STRING,
+              width: "40%",
+            },
+            { name: "age", type: COL_TYPES.INT, width: "30%" },
+            { name: "gender", type: COL_TYPES.STRING, width: "30%" },
+          ]} //List of Objects
+          noOfPages={2} //number
+          backgroundColor={"transparent"} //Table Background Color
+          headerLabelStyle={{
+            color: "white",
+            fontSize: 15,
+            fontFamily: "montserrat-17",
+          }} //Text Style Works
+        />
+      </View>

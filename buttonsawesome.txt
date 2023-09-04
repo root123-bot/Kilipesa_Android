@@ -1,0 +1,7 @@
+https://www.youtube.com/watch?v=UPtzBZDTkZg
+
+callstack buttons..
+
+https://reactnativepaper.com/
+https://callstack.github.io/react-native-paper/
+https://callstack.github.io/react-native-paper/docs/guides/getting-started/
